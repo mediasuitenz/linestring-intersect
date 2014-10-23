@@ -1,0 +1,27 @@
+{
+  "name": "linestring-intersect",
+  "version": "0.0.1",
+  "description": "Determines whether any of the segments of 2 given linestrings intersect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mediasuitenz/linestring-intersect.git"
+  },
+  "keywords": [
+    "linestring",
+    "intersect",
+    "line",
+    "intersection",
+    "coordinates",
+    "coords"
+  ],
+  "author": "Richard Walker <digitalsadhu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mediasuitenz/linestring-intersect/issues"
+  },
+  "homepage": "https://github.com/mediasuitenz/linestring-intersect"
+}
