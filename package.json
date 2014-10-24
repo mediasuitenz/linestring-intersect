@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/mediasuitenz/linestring-intersect/issues"
   },
-  "homepage": "https://github.com/mediasuitenz/linestring-intersect"
+  "homepage": "https://github.com/mediasuitenz/linestring-intersect",
+  "dependencies": {
+    "robust-segment-intersect": "^1.0.1"
+  }
 }
