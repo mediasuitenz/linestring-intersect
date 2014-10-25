@@ -4,7 +4,7 @@
   "description": "Determines whether any of the segments of 2 given linestrings intersect",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "testem ci"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,12 @@
   "homepage": "https://github.com/mediasuitenz/linestring-intersect",
   "dependencies": {
     "robust-segment-intersect": "^1.0.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "expect": "^0.1.1",
+    "mocha": "^2.0.1",
+    "mocha-given": "^0.1.3",
+    "testem": "^0.6.22"
   }
 }
