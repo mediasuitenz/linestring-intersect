@@ -1,6 +1,6 @@
 {
   "name": "linestring-intersect",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Determines whether any of the segments of 2 given linestrings intersect",
   "main": "index.js",
   "scripts": {
