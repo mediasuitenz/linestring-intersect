@@ -1,6 +1,10 @@
 var intersection = require('robust-segment-intersect')
+var assert       = require('assert')
+var util         = require('util')
 
 module.exports = function intersects(line1, line2) {
+  assert(util.isArray(line1), 'argument `line1` must be an array')
+  assert(util.isArray(line2), 'argument `line2` must be an array')
 
   var index1 = 0
   while (line1.length > 0) {
